@@ -123,7 +123,6 @@ jobs:
         run: |
           git config user.name ooljhg
           git config user.email 2406876792@qq.com
-          rm .github/workflows/import-once.yml
-          git add -- .gitignore README.md ATTRIBUTION.md LICENSE pyproject.toml research_data_toolkit tests examples .github/workflows
+          git add -- .gitignore README.md ATTRIBUTION.md LICENSE pyproject.toml research_data_toolkit tests examples
           git commit -m "Import validated research toolkit and examples"
           git push origin HEAD:main
