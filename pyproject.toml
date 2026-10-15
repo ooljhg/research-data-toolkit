@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "research-data-toolkit"
+version = "0.1.0"
+description = "Local research text cleaning, CSV quality reports and source management"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.optional-dependencies]
+integrations = ["markitdown==0.1.6", "frictionless==5.18.1"]
+
+[project.scripts]
+research-data = "research_data_toolkit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["research_data_toolkit*"]
