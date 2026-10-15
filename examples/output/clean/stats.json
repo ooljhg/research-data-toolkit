@@ -1,0 +1,9 @@
+{
+  "source_file": "sample.txt",
+  "source_sha256": "701a51079da6d5e89efd1efcae96e8bb0669c6ca12f2798af9eadf3ca28a12f5",
+  "engine": "builtin",
+  "sections": 1,
+  "characters": 78,
+  "chunks": 1,
+  "chunk_size": 80
+}

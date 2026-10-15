@@ -1,0 +1,9 @@
+{
+  "source_file": "plain.txt",
+  "source_sha256": "a701bb0534ba572e6fd49b49d5c1d1e7213d6f67708f971fa6058d566f8a116f",
+  "engine": "markitdown",
+  "sections": 1,
+  "characters": 53,
+  "chunks": 1,
+  "chunk_size": 80
+}
